@@ -1,0 +1,95 @@
+/* Reset CSS for margin and padding */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply styles for the whole page */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.top-heading {
+  font-size: 36px;
+}
+
+/* Style the navigation menu */
+.navigation {
+  background-color: #444;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Style the main content section */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-section {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.about-section h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.buttons-section {
+  text-align: center;
+}
+
+.button {
+  background-color: #405cf5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* Style the footer section */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Add more styles as needed for your design */
